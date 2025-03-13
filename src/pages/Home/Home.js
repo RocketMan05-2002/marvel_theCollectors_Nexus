@@ -9,7 +9,7 @@ import Bracket from '../../components/Bracket/Bracket';
 export default function Home(){
     return(
         <div>
-            <Bracket 
+            <Bracket
             title='planets'
             imagesArray = {planetImages}
             infoArray ={planetInfo}
@@ -19,6 +19,7 @@ export default function Home(){
             imagesArray= {shipImages}
             infoArray ={shipInfo}
             />
+            {/* WORKING on inifinity stones and Heroes at the moment */}
         </div>
     )
 }
